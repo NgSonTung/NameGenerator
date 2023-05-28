@@ -1,0 +1,28 @@
+.container {
+  height: 9rem;
+  width: 100%;
+  background-color: #cccccc;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  // border-bottom-width: 7px;
+  // border-right-width: 5px;
+  // border-color: #642fc0;
+  overflow: hidden;
+}
+.background {
+  width: 170%;
+  height: 150%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+}
+.title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}

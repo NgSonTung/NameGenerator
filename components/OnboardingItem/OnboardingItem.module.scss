@@ -1,0 +1,27 @@
+.container {
+  flex: 1;
+  align-items: center;
+  overflow: hidden;
+}
+.image {
+  object-fit: contain;
+  width: 150%;
+  flex: 0.7;
+}
+.descWrapper {
+  flex: 0.3;
+  width: 80%;
+}
+.title {
+  font-weight: 800;
+  font-size: 2rem;
+  color: #642fc0;
+  text-align: center;
+  margin-bottom: 1.3rem;
+}
+.desc {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #642fc0;
+  text-align: center;
+}

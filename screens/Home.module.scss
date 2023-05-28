@@ -1,0 +1,46 @@
+.container {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  background-color: #7a56fe36;
+}
+
+.background {
+  z-index: -100;
+  position: absolute;
+  top: 0;
+  width: 200%;
+  height: 100%;
+}
+.button {
+  margin-bottom: 1rem;
+}
+.titleWrapper {
+  width: 100%;
+  flex: 1.3;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #642fc0;
+}
+.buttonWrapper {
+  padding-top: 1rem;
+  width: 90%;
+  flex: 12;
+}
+.paginatorWrapper {
+  position: absolute;
+  bottom: 5rem;
+}
+// .paginator {
+// }
+.footer {
+  flex: 1;
+}

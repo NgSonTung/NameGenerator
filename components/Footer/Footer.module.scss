@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+}
+.wrapper {
+  align-items: center;
+}
+.title {
+  font-weight: 500;
+}
+.icon {
+  width: 1.8rem;
+  height: 1.8rem;
+  fill: #642fc0;
+}
